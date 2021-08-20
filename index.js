@@ -2,7 +2,26 @@
  DELIVERABLE 1: When a user clicks on the button, display a picture of a fox using the fox API (https://randomfox.ca/floof/)
 This deliverable will require you to combine event handling, communication with the server (fetch), and DOM manipulation
 */
+const BASE_URL = 'https://randomfox.ca/floof/';
 
+document.addEventListener("DOMContentLoaded", () => {
+    fetch(BASE_URL) 
+    .then((response) => response.json())
+    .then((foxData) => {
+        const foxImg = foxData.image;
+        const foxURL = foxData.link;
+        foxBoxImg(foxImg, foxURL);
+    })
+})
+
+function foxBoxImg(image, URL){
+    document.querySelector('#get-fox-btn').addEventListener('click', () => {
+        const foxBox = document.querySelectorAll('img')[0];
+        console.log(foxBox);
+        foxBox.src = image;
+    })
+    
+}
 
 
 /*
