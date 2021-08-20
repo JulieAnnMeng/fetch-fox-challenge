@@ -1,39 +1,44 @@
 {
-    "foxes": [
-        {
-            "id": 1,
-            "name": "Freddy",
-            "image": "https://randomfox.ca/images/81.jpg"
-        },
-        {
-            "id": 2,
-            "name": "Frannie",
-            "image": "https://randomfox.ca/images/52.jpg"
-        },
-        {
-            "id": 3,
-            "name": "Fox",
-            "image": "https://randomfox.ca/images/18.jpg"
-        },
-        {
-            "id": 4,
-            "name": "Fox",
-            "image": "https://randomfox.ca/images/58.jpg"
-        },
-        {
-            "id": 5,
-            "name": "Fiona",
-            "image": "https://randomfox.ca/images/55.jpg"
-        },
-        {
-            "id": 6,
-            "name": "Fiona",
-            "image": "https://randomfox.ca/images/76.jpg"
-        },
-        {
-            "id": 7,
-            "name": "Fiona",
-            "image": "https://randomfox.ca/images/80.jpg"
-        }
-    ]
+  "foxes": [
+    {
+      "id": 1,
+      "name": "Freddy",
+      "image": "https://randomfox.ca/images/81.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Frannie",
+      "image": "https://randomfox.ca/images/52.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Fox",
+      "image": "https://randomfox.ca/images/18.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Fox",
+      "image": "https://randomfox.ca/images/58.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Fiona",
+      "image": "https://randomfox.ca/images/55.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Fiona",
+      "image": "https://randomfox.ca/images/76.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Fiona",
+      "image": "https://randomfox.ca/images/80.jpg"
+    },
+    {
+      "name": "Foxy",
+      "image": "Foxy.com",
+      "id": 8
+    }
+  ]
 }
